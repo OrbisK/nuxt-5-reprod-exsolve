@@ -1,6 +1,6 @@
 # Nuxt 5: module virtual nested under an alias → `ENOTDIR`
 
-Reproduction for https://github.com/nuxt/nuxt/pull/36619 (first case).
+Reproduction for https://github.com/nuxt/nuxt/pull/36619 (first case). The second case (alias to a directory → false Nitro v2 compat) lives in a separate repro.
 
 Found while porting `@nuxt/content` + `nuxt-studio` to Nuxt 5: `nuxt-component-meta` sets
 
